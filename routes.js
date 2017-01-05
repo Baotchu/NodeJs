@@ -2,6 +2,7 @@ var express = require("express");
 var passport = require("passport");
 
 var User = require("./models/user");
+var Stock = require("./models/user");
 var router = express.Router();
 
 function ensureAuthenticated(req, res, next) {
