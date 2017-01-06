@@ -76,7 +76,7 @@ stockSchema.pre('save', function(next) {
   next();
 });
 
-
+//Test Git
 // CREATE methods
 // create a new user
 var newStock = Stock({
